@@ -5,4 +5,3 @@ Music promoted by Audio Library https://youtu.be/3EI6FUVE4b0
 
 https://sketchfab.com/3d-models/tropical-island-f91862f8c38b481aa19edccac851eefb
 
-LIVE: https://vr-beach.herokuapp.com/
