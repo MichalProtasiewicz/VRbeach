@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.9/dist/aframe-particle-system-component.min.js
+"></script>
+    <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+    <title>VR beach</title>
+  </head>
+  <body>
+    <embed src="/assets/audio.mp3" loop="true" autostart="true" width="2" height="0">
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="beach" src="/assets/scene.gltf"></a-asset-item>
+      </a-assets>
+      <a-entity animation-mixer gltf-model="#beach" modify-materials ></a-entity>
+    </a-scene>
+  </body>
+</html>
