@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
@@ -25,9 +25,7 @@
     "file-loader": "^6.2.0",
     "webpack": "^5.3.2",
     "webpack-cli": "^4.1.0",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^3.11.0",
     "aframe-watcher": "^1.4.0",
     "three": "^0.120.1",
     "webvr-polyfill": "^0.10.10"
